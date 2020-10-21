@@ -11,7 +11,7 @@ public class Task3 {
         System.out.println("Enter the first number: ");
         second = input.nextInt();
         for (int i = first; i < second; i++) {
-            if (i % 2 == 0) {
+            if (i % 2 != 0) {
                 System.out.print(i + " ");
             }
 
